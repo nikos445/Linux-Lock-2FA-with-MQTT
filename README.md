@@ -16,7 +16,7 @@ https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=en&gl=US
 
 ```
 TOPIC: security
-VALUES: 0/1 (BOOLEAN)
+VALUES: 0/1 (Number)
 
 ```
  
