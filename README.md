@@ -1,4 +1,7 @@
-# PC LOCK with MQTT as 2FA Authentication.
+# Linux Lock with MQTT as 2FA Authentication.
+
+###### USE AT YOUR OWN RISK. IM NOT RESPONSIBLE OF ANY DAMAGE MAY OCCUR IN YOUR DEVICES.
+###### IT WILL DISABLE KEYBOARD, BLANK SCREEN and DISABLE MOUSE until you give access from MQTT 
 
 ### Locking computer with 2FA mobile approval using MQTT cloud server.
 
@@ -21,6 +24,9 @@ TOPIC: security
 VALUES: 0 (off) / 1 (on) (Number) 
 ```
  
+##### To grand access use topic: "security" and set value to 0
+##### To prevent access use topic: "security" and set value to 1
+
 --------------------------------------------------------
 
 Copyrights Nikolaos Astyrakakis 2020
