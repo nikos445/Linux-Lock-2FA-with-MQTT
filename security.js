@@ -5,8 +5,8 @@ const ioHook = require('iohook');
 ioHook.start()
  
 var lockstatus = '1';
-var options  = { username: 'jltycthi', password: 'YuhEFQuYoXZP', port: '18650' };
-var client = mqtt.connect('mqtt://m24.cloudmqtt.com', options)
+var options  = { username: '**MQTT SERVER USERNAME**', password: '**MQTT SERVER PASSWORD**', port: '18650' };
+var client = mqtt.connect('mqtt://m24.cloudmqtt.com **MQTT SERVER URL**', options)
   
 
 client.on('connect', function (res) {
