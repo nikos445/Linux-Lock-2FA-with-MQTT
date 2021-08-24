@@ -1,4 +1,5 @@
-# LINUX LOCK + APPROVAL
+# PC LOCK with MQTT as 2FA Authentication.
+
 ### Locking computer with 2FA mobile approval using MQTT cloud server.
 
 ``` 
