@@ -7,8 +7,8 @@ npm install  iohook mqtt  robotjs
 
 ### CHANGE PASSWORDS AND URLS IN:
 ```
-var options  = { username: '**MQTT SERVER USERNAME**', password: '**MQTT SERVER PASSWORD**', port: '18650' };
-var client = mqtt.connect('mqtt://m24.cloudmqtt.com **MQTT SERVER URL**', options)
+var options  = { username: 'MQTT SERVER USERNAME', password: 'MQTT SERVER PASSWORD', port: '18650' };
+var client = mqtt.connect('mqtt://m24.cloudmqtt.com MQTT SERVER URL', options)
 ```
 USE MQTT DASH FOR CREATING A BUTTON AND CONTROLLING THE PC-2FA LOCK
 
